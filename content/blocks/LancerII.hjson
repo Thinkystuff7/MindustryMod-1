@@ -41,5 +41,5 @@ research: hail
 requirements: [
   copper/375
   lead/375
-  silicon/75
+  silicon/15
 ]
