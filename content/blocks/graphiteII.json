@@ -1,4 +1,6 @@
 type: GenericCrafter
+name: GraphiteII
+
 size: 2
 hasItems: true
 hasPower: true
