@@ -9,7 +9,7 @@ range: 360
 weapon: {
   name: chrome-blaster
   length: 1.5
-  reload: 1
+  reload: 144
   alternate: true
   bullet:{
     speed: 5
