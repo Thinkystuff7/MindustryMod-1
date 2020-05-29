@@ -25,7 +25,7 @@ ammo: {
     fragVelocityMax: 14
     hitEffect: flakExplosionBig
   }
-  leaed: {
+  lead: {
     speed: 5
     type: FlakBulletType
     damage: 70
