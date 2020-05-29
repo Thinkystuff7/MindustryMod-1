@@ -1,10 +1,10 @@
 {
-	"name": "Titanium Drill",
+	"name": "Red Drill",
 	"description": "A cheap drill for everything.",
 	"type": "Drill",
 	"size": 2,
 	"tier": 5,
-	"drillTime": 100,
+	"drillTime": 80,
 	"consumes": {
 		"power": 3
 		"liquid": {
