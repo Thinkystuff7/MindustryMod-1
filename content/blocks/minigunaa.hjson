@@ -15,6 +15,7 @@ ammo: {
     fragbullets: 25
     fragVelocityMax: 14
     hitEffect: flakExplosionBig
+    ammoMultiplier: 7
     splashDamageRadius: -1
   }
   lead: {
@@ -27,14 +28,15 @@ ammo: {
     fragbullets: 25
     fragVelocityMax: 14
     hitEffect: flakExplosionBig
+    ammoMultiplier: 7
     splashDamageRadius: -1
   }
 }
 targetAir:true
 targetGround: false
 requirements: [
-  lead/240
-  copper/270
+  lead/140
+  copper/170
 ]
 category: turret
 research: hail
