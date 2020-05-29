@@ -1,0 +1,25 @@
+{
+	"name": "Titanium Drill",
+	"description": "A cheap drill for everything.",
+	"type": "Drill",
+	"size": 2,
+	"tier": 5,
+	"drillTime": 100,
+	"consumes": {
+		"power": 3
+		"liquid": {
+			"liquid": "water", 
+			"amount": 0.05,
+			"optional": true,
+			"booster": true
+		}
+
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 200 },
+		{ "item": "silicon", "amount": 100 },
+		{ "item": "graphite", "amount": 100 }
+	],
+	"category": "production",
+	"research": "laser-drill"
+}

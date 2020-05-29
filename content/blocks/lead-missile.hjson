@@ -1,0 +1,39 @@
+type: BurstTurret
+name: Lead Missile
+description: Long range missile launcher. Launches fast missiles with low splash damage.
+health: 700
+size: 2
+reload: 144
+range: 700
+ammoUseEffect: shellEjectSmall
+inaccuracy: 15
+rotatespeed: 1
+shots:4
+shootCone: 360
+ammoPerShot: 7
+burstSpacing: 5
+itemCapacity: 100
+ammo: {
+  lead: {
+    speed: 5
+    type: FlakBulletType
+    damage: 70
+    bulletWidth: 5
+    bulletHeight: 25
+    lifetime: 200
+    fragbullets: 25
+    fragVelocityMax: 14
+    homingRange: 810
+    homingPower: 0.009
+    splashDamage: 20
+    splashDamageRadius: 50
+    explodeRange: 40
+    hitEffect: flakExplosionBig
+  }
+}
+requirements: [
+  lead/540
+  copper/470
+]
+category: turret
+research: hail

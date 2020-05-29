@@ -1,0 +1,41 @@
+type: PowerTurret
+name: Push Wall
+Description: Pushes enemies away doing a little damage
+category: turret
+range: 32
+rotatespeed: 90
+reload: 10
+recoil: 2
+cooldown: 1
+shootType: {
+  speed: 25
+  pierce: true
+  damage: 1
+  lifetime: 1
+  bulletWidth: 25
+  bulletHeight: 5
+  knockback: 20
+  recoil: 1
+  inaccuracy: 0
+  hitSound: none
+  hitEffect: none
+  despawnEffect: none
+  hitSize: 10
+  drawSize: 0.1
+  shootEffect: none
+  smokeEffect: none
+  trailEffect: artilleryTrail
+}
+powerUse: 1.5
+shootShake: 0.5
+heatColor: Color.red
+size: 1
+health: 1520
+targetAir: true
+targetGround: true
+shootSound: laser
+research: hail
+requirements: [
+  copper/175
+  lead/175
+]

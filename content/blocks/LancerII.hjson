@@ -1,0 +1,45 @@
+type: PowerTurret
+name: Electric Hail
+Description: Electric version of hail with larger range and faster firerate but lower damage
+category: turret
+range: 405.04
+rotatespeed: 17
+reload: 10
+recoil: 2
+cooldown: 1
+shootType: {
+  speed: 25
+  pierce: true
+  damage: 5
+  lifetime: 19
+  bulletSprite: shell
+  knockback: 1
+  recoil: 1
+  inaccuracy: 0
+  hitSound: none
+  hitEffect: flakExplosionBig
+  despawnEffect: none
+  hitSize: 1
+  drawSize: 0.1
+  shootEffect: none
+  smokeEffect: none
+  fragBullets: 20
+  splashDamage: 2.5
+  splashDamageRadius: 135
+  explodeRange: 60
+  trailEffect: artilleryTrail
+}
+powerUse: 4.5
+shootShake: 0.5
+heatColor: Color.red
+size: 1
+health: 520
+targetAir: true
+targetGround: true
+shootSound: laser
+research: hail
+requirements: [
+  copper/375
+  lead/375
+  silicon/75
+]

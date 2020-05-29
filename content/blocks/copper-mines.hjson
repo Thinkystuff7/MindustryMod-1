@@ -1,0 +1,37 @@
+type: DoubleTurret
+name: Copper Mine Launcher
+description: aaaaaa
+health: 1200
+size: 2
+reload: 144
+range: 800
+ammoUseEffect: shellEjectSmall
+inaccuracy: 15
+rotatespeed: 1
+shots:2
+shootCone: 180
+ammoPerShot: 5
+ammo: {
+  copper: {
+    speed: .56
+    type: FlakBulletType
+    damage: 100
+    bulletWidth: 13
+    bulletHeight: 19
+    lifetime: 1100
+    fragbullets: 95
+    fragVelocityMax: 14
+    homingRange: 400
+    homingPower: 1
+    splashDamage: 90
+    splashDamageRadius: 130
+    explodeRange: 10
+    hitEffect: flakExplosionBig
+  }
+}
+requirements: [
+  lead/340
+  copper/470
+]
+category: turret
+research: duo
