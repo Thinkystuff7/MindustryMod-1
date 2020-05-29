@@ -10,7 +10,7 @@ cooldown: 1
 shootType: {
   speed: 25
   pierce: true
-  damage: 5
+  damage: 15
   lifetime: 19
   bulletSprite: shell
   knockback: 1
@@ -23,17 +23,17 @@ shootType: {
   drawSize: 0.1
   shootEffect: none
   smokeEffect: none
-  fragBullets: 20
+  //fragBullets: 20
   splashDamage: 2.5
-  splashDamageRadius: 135
-  explodeRange: 60
+  splashDamageRadius: 35
+  explodeRange: 30
   trailEffect: artilleryTrail
 }
 powerUse: 4.5
 shootShake: 0.5
 heatColor: Color.red
 size: 1
-health: 520
+health: 320
 targetAir: true
 targetGround: true
 shootSound: laser
