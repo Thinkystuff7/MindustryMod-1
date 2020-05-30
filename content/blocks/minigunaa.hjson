@@ -1,3 +1,11 @@
+type: BurstTurret
+name: AA
+description: Long range missile launcher. Launches fast missiles with low splash damage.
+health: 700
+size: 2
+reload: 2
+range: 400
+ammoUseEffect: shellEjectSmall
 inaccuracy: 5
 rotatespeed: 32
 shots:1
