@@ -3,7 +3,7 @@ name: Chrome Wraith
 description: Generally annoying and flashy.
 speed: 1.5
 flying: true
-health: 590
+health: 290
 engineOffset: 5.5
 range: 150
 weapon: {
