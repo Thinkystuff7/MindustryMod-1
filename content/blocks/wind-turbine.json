@@ -1,0 +1,15 @@
+type: SolarGenerator
+name: Wind Turbine
+description: Generates a little power from the wind
+size: 2
+hasPower: true
+hasItems: false
+powerProduction: .1
+floating: true
+attribute: water
+requirements: [
+  copper/40
+  lead/40
+]
+category: power
+research: combustion-generator
