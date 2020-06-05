@@ -1,0 +1,50 @@
+type: BurstTurret
+name: AA
+description: Long range missile launcher. Launches fast missiles with low splash damage.
+health: 700
+size: 2
+reload: 2
+range: 400
+ammoUseEffect: shellEjectSmall
+inaccuracy: 8
+rotatespeed: 32
+shots:1
+shootCone: 17
+ammoPerShot: 2
+itemCapacity: 100
+ammo: {
+  copper: {
+    speed: 5
+    type: FlakBulletType
+    damage: 40
+    bulletWidth: 5
+    bulletHeight: 5
+    lifetime: 150
+    fragbullets: 25
+    fragVelocityMax: 14
+    hitEffect: flakExplosionBig
+    ammoMultiplier: 7
+    splashDamageRadius: -1
+  }
+  lead: {
+    speed: 5
+    type: FlakBulletType
+    damage: 40
+    bulletWidth: 5
+    bulletHeight: 5
+    lifetime: 150
+    fragbullets: 25
+    fragVelocityMax: 14
+    hitEffect: flakExplosionBig
+    ammoMultiplier: 7
+    splashDamageRadius: -1
+  }
+}
+targetAir:false
+targetGround: true
+requirements: [
+  lead/340
+  copper/370
+]
+category: turret
+research: hail
