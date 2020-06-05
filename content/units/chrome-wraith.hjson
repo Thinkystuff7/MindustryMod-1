@@ -1,7 +1,7 @@
 type: flyingUnit
 name: Chrome Wraith
 description: Generally annoying and flashy.
-speed: 1.5
+speed: 0.4
 flying: true
 health: 290
 engineOffset: 5.5
@@ -16,11 +16,11 @@ weapon: {
     type: FlakBulletType
     damage: 40
     bulletWidth: 5
-    bulletHeight: 25
-    lifetime: 200
+    bulletHeight: 7
+    lifetime: 50
     fragbullets: 25
     fragVelocityMax: 14
-    homingRange: 810
+    homingRange: 40
     homingPower: 0.009
     splashDamage: 20
     splashDamageRadius: 50
