@@ -3,13 +3,13 @@ description: Makes Chrome Wraith units.
 type: UnitFactory
 unitType: chrome-wraith
 size: 2
-produceTime: 350
-maxSpawn: 6
+produceTime: 65
+maxSpawn: 7
 consumes: {
   power: 1.5
   items: {
     items: [
-      copper/25
+      copper/7
     ]
   }
 }
