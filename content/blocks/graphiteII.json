@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: GraphiteII
-
+description: Uses the power of coal and love to create graphite.
 size: 2
 hasItems: true
 hasPower: true
