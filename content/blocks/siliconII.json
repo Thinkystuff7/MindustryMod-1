@@ -1,5 +1,6 @@
 type: GenericCrafter
 name: SiliconII
+description: Uses the power of coal and love to create silicon.
 size: 2
 hasItems: true
 hasPower: true
