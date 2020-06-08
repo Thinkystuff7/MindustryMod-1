@@ -1,0 +1,42 @@
+type: PowerTurret
+name: Stun Wall
+Description: Stuns enemies away doing a little damage
+category: turret
+range: 128
+rotatespeed: 90
+reload: 1
+recoil: 2
+cooldown: 1
+shootSound: none
+shootType: {
+  speed: 25
+  pierce: true
+  damage: 0.1
+  lifetime: 5
+  bulletWidth: 10
+  bulletHeight: 5
+  knockback: 20
+  recoil: 1
+  inaccuracy: 0
+  hitSound: none
+  hitEffect: none
+  despawnEffect: none
+  hitSize: 10
+  drawSize: 0.1
+  shootEffect: none
+  smokeEffect: none
+  status: freezing
+}
+powerUse: 1.5
+shootShake: 0.1
+heatColor: Color.red
+size: 1
+health: 1520
+targetAir: true
+targetGround: true
+shootSound: laser
+research: hail
+requirements: [
+  copper/275
+  lead/275
+]
