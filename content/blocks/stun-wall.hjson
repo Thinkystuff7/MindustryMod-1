@@ -34,7 +34,6 @@ size: 1
 health: 1520
 targetAir: true
 targetGround: true
-shootSound: laser
 research: hail
 requirements: [
   copper/275
