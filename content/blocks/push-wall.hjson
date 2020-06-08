@@ -1,8 +1,8 @@
 type: PowerTurret
-name: Push Wall
-Description: Pushes enemies away doing a little damage
+name: Stun Wall
+Description: Stuns enemies away doing a little damage
 category: turret
-range: 32
+range: 128
 rotatespeed: 90
 reload: 10
 recoil: 2
@@ -11,7 +11,7 @@ shootType: {
   speed: 25
   pierce: true
   damage: 1
-  lifetime: 1
+  lifetime: 5
   bulletWidth: 25
   bulletHeight: 5
   knockback: 20
