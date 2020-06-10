@@ -21,7 +21,7 @@ outputItem: graphite/4
 requirements: [
   copper/535
   lead/515
-  graphite/50
+  graphite/10
 ]
 category: crafting
 research: pulverizer

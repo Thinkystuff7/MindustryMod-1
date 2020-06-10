@@ -1,0 +1,20 @@
+    type: MassDriver
+    name: Mini Mass Driver
+    description: Smaller mass driver
+    health: 500
+    requirements: [
+        lead/150
+	copper/125
+        titanium/15
+    ]
+    size: 1
+    itemCapacity: 1
+    minDistribute: 1
+    reloadTime: 60
+    knockback: 0
+    translation: 0
+    shake: 0
+    range: 250
+    consumes: {power: 1.5}
+    category: distribution
+    research: titanium-conveyor

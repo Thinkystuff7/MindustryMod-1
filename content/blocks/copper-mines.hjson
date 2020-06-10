@@ -18,13 +18,13 @@ ammo: {
     damage: 100
     bulletWidth: 13
     bulletHeight: 19
-    lifetime: 1100
+    lifetime: 1250
     fragbullets: 95
     fragVelocityMax: 14
     homingRange: 400
     homingPower: 1
     splashDamage: 90
-    splashDamageRadius: 130
+    splashDamageRadius: 90
     explodeRange: 10
     hitEffect: flakExplosionBig
   }
