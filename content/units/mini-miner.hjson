@@ -9,6 +9,7 @@ engineOffset: 2.0
 engineSize: 3
 rotateSpeed: 3
 mass: 80
+mineSpeed: 2
 toMine: [
   lead
   copper
