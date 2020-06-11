@@ -1,0 +1,16 @@
+name: Arty Mech Pad
+description: Transform into the Arty mech.
+type: MechPad
+mech: arty-mech
+size: 2
+consumes: {
+  power: 1.7
+}
+category: upgrade
+research: dart-mech-pad
+requirements: [
+  copper/100
+  lead/80
+  silicon/40
+  graphite/20
+]

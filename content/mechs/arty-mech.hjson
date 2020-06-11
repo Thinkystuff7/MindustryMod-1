@@ -1,0 +1,35 @@
+name: "Arty Mech"
+description: A
+speed: 0.4
+boostSpeed: 1.2
+buildPower: 2
+engineColor: "666495"
+flying: false
+health: 700
+weaponOffsetX: 4
+itemCapacity: 200
+weapon: {
+  name: chrome-blaster
+  length: 1.5
+  reload: 80
+  alternate: true
+  shootSound:artillery
+  nimPlayerDist: 1
+  bullet:{
+    type: BasicBulletType
+    speed: 3
+    damage: 57
+    hitEffect: flakExplosion
+    bulletSprite: shell
+    knockback: 0.8
+    lifetime: 130
+    bulletWidth: 11
+    bulletHeight: 11
+    collidesTiles: true
+    hitSound: explosion
+    splashDamageRadius: 25
+    splashDamage: 38
+    fragBullets: 24
+    fragVelocityMax: 5
+  }
+}
