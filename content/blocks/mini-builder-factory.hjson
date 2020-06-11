@@ -1,0 +1,24 @@
+type: UnitFactory
+unitType: mini-builder
+name: Mini Builder Factory
+size: 2
+health: 700
+produceTime: 450
+maxSpawn: 2
+consumes: {
+  power: 7.7
+  items: {
+    items: [
+      copper/10
+      lead/10
+    ]
+  }
+}
+category: units
+research: draug-factory
+requirements: [
+      copper/150
+      lead/150
+      graphite/30
+      silicon/20
+]

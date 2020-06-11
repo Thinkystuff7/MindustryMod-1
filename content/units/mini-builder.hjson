@@ -1,0 +1,30 @@
+type: BuilderDrone
+speed: 3
+accel: 0.3
+drag: 0.05
+maxVelocity: 2.75
+flying: true
+health: 300
+engineOffset: 5.75
+engineSize: 5.75
+range: 65
+buildSpeed: 0.8
+retreatPercent: 0.3
+itemCapacity: 50
+weapon: {
+  name: clear
+  length: 1.5
+  reload: 140
+  alternate: true
+  bullet: {
+    speed: 1
+    type: BasicBulletType
+    damage: 40
+    bulletWidth: 5
+    bulletHeight: 5
+    lifetime: 150
+    fragbullets: 25
+    fragVelocityMax: 14
+    splashDamageRadius: -1
+  }
+}

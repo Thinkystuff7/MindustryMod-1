@@ -1,0 +1,25 @@
+type: MinerDrone
+name: "Mini Miner"
+description: zzzz 
+maxVelocity: 60
+speed: 0.3
+flying: true
+health: 40
+engineOffset: 2.0
+engineSize: 3
+rotateSpeed: 3
+mass: 80
+toMine: [
+  lead
+  copper
+  titanium 
+  thorium
+]
+drillPower: 4.0
+itemCapacity:175
+range: 12
+minePower: 20.0
+weapon: {
+name: cg 
+bullet: lancerLaser
+}

@@ -1,0 +1,16 @@
+type: UnitFactory
+unitType: mini-miner
+name: Mini Miner Factory
+size: 2
+health: 700
+produceTime: 450
+maxSpawn: 2
+consumes: {
+  power: 1.7
+}
+category: units
+research: draug-factory
+requirements: [
+      copper/70
+      lead/50
+]
