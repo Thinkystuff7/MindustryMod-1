@@ -9,7 +9,6 @@ recoil: 2
 cooldown: 1
 shootType: {
   speed: 25
-  pierce: true
   damage: 15
   lifetime: 19
   bulletSprite: shell

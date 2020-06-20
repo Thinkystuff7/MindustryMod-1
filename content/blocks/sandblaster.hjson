@@ -1,0 +1,44 @@
+type: ItemTurret
+name: "Sand Blaster"
+Description: sand blaster sand blaster sand blaster sand blaster sand blaster sand blaster sand blaster sand blaster sand blaster
+category: turret
+range: 85.04
+rotatespeed: 17
+reload: 7
+recoil: 0.1
+inaccuracy: 17
+cooldown: 1
+ammo: {
+  sand: {
+    speed: 3
+    drag: 0.02
+    type: BasicBulletType
+    trailColor: f7cba4
+    damage: 1
+    pierce: true
+    bulletShrink: 0
+    bulletWidth: 16
+    bulletHeight: 16
+    hitSize: 8
+    lifetime: 42
+    bulletSprite: mod-1-sandblast
+    frontColor: f7cba4
+    backColor: f7cba4
+    ammoMultiplier: 4
+    shootEffect: none
+    despawnEffect: none
+    smokeEffect: none
+    hitEffect: none
+  }
+}
+shootSound: fire
+shootShake: 0
+size: 1
+health: 430
+targetAir: false
+targetGround: true
+research: scorch
+requirements: [
+  copper/75
+  lead/55
+]
