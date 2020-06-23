@@ -1,0 +1,16 @@
+name: Ghost Bomber Pad
+description: Transform into the Ghost Bomber.
+type: MechPad
+mech: ghost-bomber
+size: 2
+consumes: {
+  power: 1.7
+}
+category: upgrade
+research: dart-mech-pad
+requirements: [
+  copper/200
+  lead/80
+  silicon/40
+  graphite/20
+]

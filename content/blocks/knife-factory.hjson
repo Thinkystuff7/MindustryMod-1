@@ -1,0 +1,22 @@
+name: Knife Factory
+description: Makes fast but weak knife units.
+type: UnitFactory
+unitType: knife
+size: 2
+produceTime: 65
+maxSpawn: 7
+consumes: {
+  power: 1.5
+  items: {
+    items: [
+      copper/15
+      graphite/5
+    ]
+  }
+}
+category: units
+research: wraith-factory
+requirements: [
+  copper/70
+  lead/40
+]

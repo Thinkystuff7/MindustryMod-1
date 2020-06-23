@@ -1,0 +1,51 @@
+name: "Ghost Bomber"
+description: speedy quick fast bomberer
+speed: 3.22
+buildPower: 1.5
+minePower: 2
+drag: 0.3
+mass: 12
+engineColor: "666495"
+flying: true
+health: 440
+weaponOffsetX: 4
+weaponOffsetY: -3
+itemCapacity: 300
+turnCursor: false
+weapon: {
+  name: waaaaaaaaaaa
+  x: 3
+  shootY: 0
+  reload: 12
+  shootCone: 180
+  alternate: true
+  ejectEffect: none
+  inaccuracy: 15
+  ignoreRotation: true
+  bullet: {
+    type: BombBulletType
+    speed: 0.7
+    lifetime: 30
+    drag: 0.05
+    keepVelocity: true
+    incendAmount: 2
+    fragBullets: 9
+    fragVelocityMax: 1
+    splashDamageRadius:  45
+    splashDamage:  45
+    bulletWidth: 25
+    bulletHeight: 25
+    fragBullet: {
+      type: BasicBulletType
+      bulletWidth: 5
+      bulletHeight: 7
+      shrinkY: 1
+      lifetime: 15
+      despawnEffect: none
+      incendAmount: 1
+    }
+  }
+  shootSound: none
+}
+
+
