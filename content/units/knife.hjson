@@ -1,0 +1,22 @@
+type: GroundUnit
+speed: 1.0
+hitsize: 7
+health: 50
+range: 10
+weapon: {
+  name: chrome-blaster
+  reload: 7
+  x: 4
+  alternate: true
+  ejectEffect: shellEjectSmall
+  bullet: {
+    bulletWidth: 3
+    bulletHeight: 5
+    type:BasicBulletType
+    damage: 3
+    speed: 2
+    lifetime: 60
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+  }
+}
