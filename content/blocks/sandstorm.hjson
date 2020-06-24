@@ -1,0 +1,44 @@
+type: ItemTurret
+name: "Sandstorm"
+Description: Sandstorm Sandstorm Sandstorm Sandstorm Sandstorm Sandstorm Sandstorm Sandstorm Sandstorm Sandstorm Sandstorm Sandstorm Sandstorm 
+category: turret
+range: 185.04
+rotatespeed: 17
+reload: 7
+recoil: 0.1
+inaccuracy: 17
+cooldown: 1
+ammo: {
+  sand: {
+    speed: 5
+    drag: 0.02
+    type: BasicBulletType
+    trailColor: f7cba4
+    damage: 1
+    pierce: true
+    bulletShrink: -.5
+    bulletWidth: 26
+    bulletHeight: 26
+    hitSize: 16
+    lifetime: 42
+    bulletSprite: mod-1-sandstormb
+    frontColor: f7cba4
+    backColor: f7cba4
+    ammoMultiplier: 4
+    shootEffect: none
+    despawnEffect: none
+    smokeEffect: none
+    hitEffect: none
+  }
+}
+shootSound: fire
+shootShake: 0
+size: 2
+health: 430
+targetAir: true
+targetGround: false
+research: scorch
+requirements: [
+  copper/75
+  lead/55
+]

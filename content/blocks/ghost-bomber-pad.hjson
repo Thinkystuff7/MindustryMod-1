@@ -2,7 +2,7 @@ name: Ghost Bomber Pad
 description: Transform into the Ghost Bomber.
 type: MechPad
 mech: ghost-bomber
-size: 2
+size: 3
 consumes: {
   power: 1.7
 }

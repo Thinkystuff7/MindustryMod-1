@@ -1,0 +1,40 @@
+type: BurstTurret
+name: "Scrapgun"
+Description: ScrAp ShOtGuN sCrap shotgun scRaP sHotgun
+category: turret
+range: 125.04
+rotatespeed: 11
+reload: 45
+burstSpacing: 0
+recoil: 3
+inaccuracy: 40
+shots: 12
+ammoPerShot: 5
+xRand: 3
+shootCone: 160
+shootSound: scrapgun
+ammo: {
+  scrap: {
+    speed: 3
+    type: BasicBulletType
+    damage: 40
+    pierce: false
+    bulletShrink: 0
+    bulletWidth: 6
+    bulletHeight: 5
+    hitSize: 5
+    lifetime: 37
+    ammoMultiplier: 4
+    despawnEffect: none
+  }
+}
+shootShake: 0.1
+size: 1
+health: 230
+targetAir: false
+targetGround: true
+research: scorch
+requirements: [
+  copper/75
+  lead/55
+]
