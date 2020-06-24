@@ -1,9 +1,9 @@
 type: BurstTurret
 name: AA
-description: Long range missile launcher. Launches fast missiles with low splash damage.
+description: Large calibar aa that can destroy groups of planes
 health: 700
 size: 2
-reload: 144
+reload: 120
 burstSpacing: 24
 range: 400
 ammoUseEffect: shellEjectSmall
@@ -40,6 +40,7 @@ ammo: {
     hitEffect: flakExplosionBig
     ammoMultiplier: 7
     splashDamageRadius: 45
+    splashDamage: 70
   }
 }
 targetAir:true

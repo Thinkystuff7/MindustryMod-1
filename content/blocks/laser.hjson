@@ -1,0 +1,43 @@
+type: PowerTurret
+name: Laser
+Description: laserlaserlaser
+category: turret
+range: 205.04
+rotatespeed: 9
+reload: 10
+recoil: 2
+cooldown: 1
+shootType: {
+    speed: 12
+    drag: -1
+    type: BasicBulletType
+    damage: 18
+    pierce: true
+    bulletShrink: -14
+    bulletWidth: 4
+    bulletHeight: 16
+    hitSize: 4
+    lifetime: 42
+    bulletSprite: mod-1-pewpew
+    frontColor: FF0000
+    backColor: FF0000
+    shootEffect: lancerLaserShoot
+    despawnEffect: none
+    smokeEffect: none
+    hitEffect: none
+}
+powerUse: 15
+shootShake: 0
+heatColor: Color.red
+size: 1
+health: 320
+targetAir: true
+targetGround: true
+shootSound: laser
+research: hail
+requirements: [
+  copper/375
+  lead/375
+  silicon/15
+]
+

@@ -17,6 +17,7 @@ weaponOffsetY: -28
 itemCapacity: 300
 turnCursor: false
 lowAltitude: true
+range:50
 weapon: {
   name: waaaaaaaaaaa
   x: 3
