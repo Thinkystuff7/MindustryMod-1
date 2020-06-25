@@ -31,7 +31,7 @@ weapon: {
   ignoreRotation: true
   bullet: {
     type: BombBulletType
-    speed: 0
+    speed: 0.5
     lifetime: 30
     drag: 0.05
     keepVelocity: true
