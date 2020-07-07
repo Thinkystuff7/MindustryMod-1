@@ -15,9 +15,9 @@ ammoPerShot: 1
 itemCapacity: 100
 ammo: {
   copper: {
-    speed: 5
+    speed: 6
     type: FlakBulletType
-    damage: 70
+    damage: 112
     bulletWidth: 5
     bulletHeight: 5
     lifetime: 150
@@ -25,8 +25,25 @@ ammo: {
     fragVelocityMax: 14
     hitEffect: flakExplosionBig
     ammoMultiplier: 7
-    splashDamageRadius: -1
+    splashDamageRadius: 17
   }
+  pyratite: {
+    speed: 5
+    type: FlakBulletType
+    explodeRange: 40
+    damage: 70
+    bulletWidth: 10
+    bulletHeight: 10
+    lifetime: 150
+    fragbullets: 25
+    fragVelocityMax: 14
+    hitEffect: flakExplosionBig
+    ammoMultiplier: 7
+    splashDamageRadius: 45
+    splashDamage: 45
+    status: burning
+  }
+  
   blast-compound: {
     speed: 5
     type: FlakBulletType
