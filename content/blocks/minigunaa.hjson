@@ -1,6 +1,6 @@
 type: BurstTurret
-name: AA
-description: Long range missile launcher. Launches fast missiles with low splash damage.
+name: Minigun AA
+description: fire fast
 health: 700
 size: 2
 reload: 2
@@ -38,6 +38,20 @@ ammo: {
     hitEffect: flakExplosionBig
     ammoMultiplier: 7
     splashDamageRadius: -1
+  }
+  pyratite: {
+    speed: 4.85
+    type: FlakBulletType
+    damage: 70
+    bulletWidth: 5
+    bulletHeight: 5
+    lifetime: 150
+    fragbullets: 25
+    fragVelocityMax: 14
+    hitEffect: flakExplosionBig
+    ammoMultiplier: 7
+    splashDamageRadius: 5
+    status: melting
   }
 }
 targetAir:true
