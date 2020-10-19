@@ -1,6 +1,6 @@
 type: BurstTurret
 name: AA
-description: Large calibar aa that can destroy groups of planes
+description: Large caliber aa that can destroy groups of planes
 health: 700
 size: 2
 reload: 120
